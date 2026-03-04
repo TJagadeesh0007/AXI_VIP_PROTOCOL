@@ -53,7 +53,6 @@ class axi_xtn extends uvm_sequence_item;
 	int start_addr;
 
 	bit[31:0] raddr[];
-	bit [3:0] rstrb[];
 	int no_rbytes;
 	int aligned_raddr;
 	int start_raddr;
